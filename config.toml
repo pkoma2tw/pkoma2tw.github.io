@@ -1,0 +1,31 @@
+baseURL = "https://p.koma2.ai/"
+languageCode = "ja"
+title = "pkoma2tw"
+theme = "hugo-bingo"
+
+disableHugoGeneratorInject = true
+enableEmoji = true
+footnoteReturnLinkContents = "↩"
+hasCJKLanguage = true
+googleAnalytics = "UA-118273271-2"
+
+[permalinks]
+  post = "/posts/:slug/"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts"
+    weight = 20
+
+    [params]
+      email = "komatsu@pencil.world"
+      github = "pkoma2tw"
